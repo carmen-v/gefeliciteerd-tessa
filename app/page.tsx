@@ -69,13 +69,13 @@ export default function Page() {
 
       {/* Main message */}
       <div className="text-center z-10 pt-16 px-6 animate-[fade-in-up_1.2s_ease-out_both]">
-        <p className="block text-[clamp(2rem,6vw,4.5rem)] text-[#f0e6ff] tracking-widest italic animate-[fade-in-up_1.2s_ease-out_0.2s_both]">
+        <p className="block text-[clamp(1.2rem,3vw,2rem)] text-[#c4b5fd] tracking-widest uppercase animate-[fade-in-up_1.2s_ease-out_0.2s_both]">
           Van harte
         </p>
         <h1 className="gradient-text block text-[clamp(4rem,14vw,10rem)] font-black leading-none">
           Gefeliciteerd
         </h1>
-        <p className="block text-[clamp(1.2rem,3vw,2rem)] text-[#c4b5fd] mt-6 tracking-widest uppercase animate-[fade-in-up_1.2s_ease-out_0.9s_both]">
+        <p className="block text-[clamp(1.2rem,3vw,2rem)] text-[#c4b5fd] mt-4 tracking-widest uppercase animate-[fade-in-up_1.2s_ease-out_0.9s_both]">
           lieve Tessa&nbsp;🎂
         </p>
         <span className="emoji-animate text-[clamp(2rem,6vw,4.5rem)] mt-5">
