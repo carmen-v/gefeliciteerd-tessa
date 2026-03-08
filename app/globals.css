@@ -31,7 +31,7 @@
   100% { transform: translateY(110vh) rotateZ(720deg) rotateX(360deg); opacity: 0; }
 }
 
-@keyframes fadeInUp {
+@keyframes fade-in-up {
   from { opacity: 0; transform: translateY(40px); }
   to   { opacity: 1; transform: translateY(0); }
 }
@@ -68,13 +68,13 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-shadow: none;
-  animation: fadeInUp 1.2s ease-out 0.5s both, shimmer 4s ease-in-out infinite;
+  animation: fade-in-up 1.2s ease-out 0.5s both, shimmer 4s ease-in-out infinite;
 }
 
 /* ── Emoji row — two simultaneous animations ── */
 .emoji-animate {
   display: inline-block;
-  animation: fadeInUp 1.2s ease-out 1.2s both, emoji-bounce 2s ease-in-out 2.4s infinite;
+  animation: fade-in-up 1.2s ease-out 1.2s both, emoji-bounce 2s ease-in-out 2.4s infinite;
 }
 
 /* ── Speech bubble tail — ::after can't be done in Tailwind ── */
