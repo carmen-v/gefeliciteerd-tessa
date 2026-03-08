@@ -1,0 +1,178 @@
+/* [project]/repos/gefeliciteerd-tessa/app/globals.css [app-client] (css) */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: #0a0a1a;
+  font-family: Georgia, serif;
+}
+
+.scene {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.confetti-piece {
+  transform-origin: center;
+  border-radius: 2px;
+  width: 10px;
+  height: 14px;
+  animation: linear infinite fall;
+  position: absolute;
+  top: -20px;
+}
+
+@keyframes fall {
+  0% {
+    opacity: 1;
+    transform: translateY(0)rotateZ(0)rotateX(0);
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(110vh)rotateZ(720deg)rotateX(360deg);
+  }
+}
+
+.hero {
+  text-align: center;
+  z-index: 10;
+  animation: 1.2s ease-out both fadeInUp;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.greeting {
+  color: #f0e6ff;
+  letter-spacing: .05em;
+  font-size: clamp(2rem, 6vw, 4.5rem);
+  font-style: italic;
+  animation: 1.2s ease-out .2s both fadeInUp;
+}
+
+.name {
+  background: linear-gradient(135deg, #ff6fd8, gold, #ff6fd8, #a78bfa) 0 0 / 300% 300%;
+  -webkit-text-fill-color: transparent;
+  text-shadow: none;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: clamp(4rem, 14vw, 10rem);
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1;
+  animation: 1.2s ease-out .5s both fadeInUp, 4s ease-in-out infinite shimmer;
+}
+
+@keyframes shimmer {
+  0%, 100% {
+    background-position: 0%;
+  }
+
+  50% {
+    background-position: 100%;
+  }
+}
+
+.tagline {
+  color: #c4b5fd;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  margin-top: 1.5rem;
+  font-size: clamp(1.2rem, 3vw, 2rem);
+  animation: 1.2s ease-out .9s both fadeInUp;
+}
+
+.emoji-row {
+  margin-top: 1.2rem;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  animation: 1.2s ease-out 1.2s both fadeInUp, 2s ease-in-out 2.4s infinite bounce;
+  display: inline-block;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+.orb {
+  filter: blur(80px);
+  opacity: .25;
+  pointer-events: none;
+  border-radius: 50%;
+  animation: 6s ease-in-out infinite pulse;
+  position: absolute;
+}
+
+.orb-1 {
+  background: #7c3aed;
+  width: 500px;
+  height: 500px;
+  animation-delay: 0s;
+  top: -150px;
+  left: -150px;
+}
+
+.orb-2 {
+  background: #ec4899;
+  width: 400px;
+  height: 400px;
+  animation-delay: 2s;
+  bottom: -100px;
+  right: -100px;
+}
+
+.orb-3 {
+  background: #f59e0b;
+  width: 300px;
+  height: 300px;
+  animation-delay: 4s;
+  bottom: 20%;
+  left: 10%;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: .25;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: .35;
+    transform: scale(1.15);
+  }
+}
+
+/*# sourceMappingURL=repos_gefeliciteerd-tessa_app_globals_23cfa4fb.css.map*/
