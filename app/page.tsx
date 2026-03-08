@@ -60,9 +60,9 @@ export default function Page() {
     <div className="relative w-screen min-h-screen flex flex-col items-center justify-center overflow-hidden">
 
       {/* Background glow orbs */}
-      <div className="absolute rounded-full blur-[80px] pointer-events-none w-125 h-125 bg-[#7c3aed] -top-[150px] -left-[150px] [animation:orb-glow_6s_ease-in-out_infinite]" />
-      <div className="absolute rounded-full blur-[80px] pointer-events-none w-100 h-100 bg-[#ec4899] -bottom-[100px] -right-[100px] [animation:orb-glow_6s_ease-in-out_2s_infinite]" />
-      <div className="absolute rounded-full blur-[80px] pointer-events-none w-75 h-75 bg-[#f59e0b] bottom-[20%] left-[10%] [animation:orb-glow_6s_ease-in-out_4s_infinite]" />
+      <div className="absolute rounded-full blur-[80px] pointer-events-none w-125 h-125 bg-[#7c3aed] -top-37.5 -left-37.5 animate-[orb-glow_6s_ease-in-out_infinite]" />
+      <div className="absolute rounded-full blur-[80px] pointer-events-none w-100 h-100 bg-[#ec4899] -bottom-25 -right-25 animate-[orb-glow_6s_ease-in-out_2s_infinite]" />
+      <div className="absolute rounded-full blur-[80px] pointer-events-none w-75 h-75 bg-[#f59e0b] bottom-[20%] left-[10%] animate-[orb-glow_6s_ease-in-out_4s_infinite]" />
 
       {/* Falling confetti */}
       <Confetti />
@@ -75,7 +75,7 @@ export default function Page() {
         <h1 className="gradient-text block text-[clamp(4rem,14vw,10rem)] font-black leading-none">
           Gefeliciteerd
         </h1>
-        <p className="block text-[clamp(1.2rem,3vw,2rem)] text-[#c4b5fd] mt-6 tracking-widest uppercase [animation:fade-in-up_1.2s_ease-out_0.9s_both]">
+        <p className="block text-[clamp(1.2rem,3vw,2rem)] text-[#c4b5fd] mt-6 tracking-widest uppercase animate-[fade-in-up_1.2s_ease-out_0.9s_both]">
           lieve Tessa&nbsp;🎂
         </p>
         <span className="emoji-animate text-[clamp(2rem,6vw,4.5rem)] mt-5">
