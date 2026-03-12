@@ -7,7 +7,7 @@ export interface Wish {
 export const wishes: Wish[] = [
   {
     name: "Nick",
-    wish: "Tessa, gefeliciteerd met je verjaardag! 🎉",
+    wish: "Tessa, van harte gefeliciteerd met je verjaardag! 🎉",
     avatar: "/avatars/placeholder.svg",
   },
   {
