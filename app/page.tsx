@@ -74,7 +74,7 @@ export default function Page() {
         <p className="block text-[clamp(1.2rem,3vw,2rem)] text-[#c4b5fd] tracking-widest uppercase animate-[fade-in-up_1.2s_ease-out_0.2s_both]">
           Van harte
         </p>
-        <h1 className="gradient-text block text-[clamp(4rem,14vw,10rem)] font-black leading-none">
+        <h1 className="gradient-text block text-[clamp(1.5rem,13vw,10rem)] font-black leading-none">
           Gefeliciteerd
         </h1>
         <p className="block text-[clamp(1.2rem,3vw,2rem)] text-[#c4b5fd] mt-4 tracking-widest uppercase animate-[fade-in-up_1.2s_ease-out_0.9s_both]">
