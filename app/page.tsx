@@ -65,7 +65,9 @@ export default function Page() {
       <div className="absolute rounded-full blur-[80px] pointer-events-none w-75 h-75 bg-[#f59e0b] bottom-[20%] left-[10%] animate-[orb-glow_6s_ease-in-out_4s_infinite]" />
 
       {/* Falling confetti */}
-      <Confetti />
+      <div className="fixed inset-0 pointer-events-none overflow-hidden z-50">
+        <Confetti />
+      </div>
 
       {/* Main message */}
       <div className="text-center z-10 pt-16 px-6 animate-[fade-in-up_1.2s_ease-out_both]">
