@@ -79,7 +79,7 @@ export default function Page() {
           lieve Tessa&nbsp;🎂
         </p>
         <span className="emoji-animate text-[clamp(2rem,6vw,4.5rem)] mt-5">
-          🎉&nbsp;🎈&nbsp;✨
+          🍷&nbsp;💃&nbsp;🍍
         </span>
       </div>
 
