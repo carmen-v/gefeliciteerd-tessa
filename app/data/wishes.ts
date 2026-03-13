@@ -28,7 +28,7 @@ export const wishes: Wish[] = [
   {
     name: "Johan",
     wish: "Happy happy Tessa! Hope you have an amazing day. You have not aged a day since I met you.",
-    avatar: "/avatars/avatar_johan.svg",
+    avatar: "/avatars/avatar_johan.png",
   },
   {
     name: "...",
