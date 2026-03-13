@@ -31,9 +31,9 @@ export const wishes: Wish[] = [
     avatar: "/avatars/avatar_johan.png",
   },
   {
-    name: "...",
-    wish: "Voeg hier jouw wens toe...",
-    avatar: "/avatars/placeholder.svg",
+    name: "Yuga",
+    wish: "Hi Tessa, van harte gefeliciteerd! Ik wens je een heel fijn en gelukkig nieuw levensjaar.",
+    avatar: "/avatars/avatar_yuga.png",
   },
   {
     name: "...",
