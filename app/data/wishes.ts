@@ -43,7 +43,7 @@ export const wishes: Wish[] = [
   {
     name: "Tim",
     wish: "Van harte gefeliciteerd en een hele fijne verjaardag 🎉",
-    avatar: "/avatars/placeholder.svg",
+    avatar: "/avatars/avatar_tim.png",
   },
   {
     name: "Gijs",
