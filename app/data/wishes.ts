@@ -11,6 +11,11 @@ export const wishes: Wish[] = [
     avatar: "/avatars/avatar_nick.png",
   },
   {
+    name: "Arjan",
+    wish: "Hi Tessa, proficiat met je 35e verjaardag! 🎉 Maak er een mooie dag van! 🍷",
+    avatar: "/avatars/arjan.png",
+  },
+  {
     name: "Carmen",
     wish: "Tessa, van harte gefeliciteerd! 🎉 Met jouw heldere aanpak en rustig hoofd weet jij altijd het beste uit ons team te halen. Ik hoop dat je vandaag volledig in het zonnetje wordt gezet, dat verdien jij als geen ander! 🥂",
     avatar: "/avatars/avatar_carmen.png",
@@ -54,11 +59,6 @@ export const wishes: Wish[] = [
     name: "Yoann",
     wish: "Joyeux Anniversaire 🥳 Hope you will have a great celebration!",
     avatar: "/avatars/avatar_yoann.jpg",
-  },
-  {
-    name: "...",
-    wish: "Voeg hier jouw wens toe...",
-    avatar: "/avatars/placeholder.svg",
   },
   {
     name: "...",
