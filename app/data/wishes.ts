@@ -16,9 +16,9 @@ export const wishes: Wish[] = [
     avatar: "/avatars/arjan.png",
   },
   {
-    name: "Carmen",
-    wish: "Tessa, van harte gefeliciteerd! 🎉 Met jouw heldere aanpak en rustig hoofd weet jij altijd het beste uit ons team te halen. Ik hoop dat je vandaag volledig in het zonnetje wordt gezet, dat verdien jij als geen ander! 🥂",
-    avatar: "/avatars/avatar_carmen.png",
+    name: "Tim",
+    wish: "Van harte gefeliciteerd en een hele fijne verjaardag 🎉",
+    avatar: "/avatars/avatar_tim.png",
   },
   {
     name: "Dennis",
@@ -46,11 +46,6 @@ export const wishes: Wish[] = [
     avatar: "/avatars/avatar_leon.png",
   },
   {
-    name: "Tim",
-    wish: "Van harte gefeliciteerd en een hele fijne verjaardag 🎉",
-    avatar: "/avatars/avatar_tim.png",
-  },
-  {
     name: "Gijs",
     wish: "Tessa, van harte gefeliciteerd! 🎉 Bedankt voor je positieve energie en inzet voor het team. Vandaag vooral genieten, morgen mogen we weer proberen je tempo bij te houden!",
     avatar: "/avatars/avatar_gijs.png",
@@ -61,23 +56,8 @@ export const wishes: Wish[] = [
     avatar: "/avatars/avatar_yoann.jpg",
   },
   {
-    name: "...",
-    wish: "Voeg hier jouw wens toe...",
-    avatar: "/avatars/placeholder.svg",
-  },
-  {
-    name: "...",
-    wish: "Voeg hier jouw wens toe...",
-    avatar: "/avatars/placeholder.svg",
-  },
-  {
-    name: "...",
-    wish: "Voeg hier jouw wens toe...",
-    avatar: "/avatars/placeholder.svg",
-  },
-  {
-    name: "...",
-    wish: "Voeg hier jouw wens toe...",
-    avatar: "/avatars/placeholder.svg",
+    name: "Carmen",
+    wish: "Tessa, van harte gefeliciteerd! 🎉 Met jouw heldere aanpak en rustig hoofd weet jij altijd het beste uit ons team te halen. Ik hoop dat je vandaag volledig in het zonnetje wordt gezet, dat verdien jij als geen ander! 🥂",
+    avatar: "/avatars/avatar_carmen.png",
   },
 ];
